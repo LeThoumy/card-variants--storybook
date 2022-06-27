@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006 -s ./public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=40de67ffb1e8"
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
@@ -30,9 +31,12 @@
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.6.4",
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
     "eslint-plugin-storybook": "^0.5.13",
     "typescript": "4.7.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "nextjs-app--typescript@0.1.0"
 }
