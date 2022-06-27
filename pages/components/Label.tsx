@@ -2,7 +2,7 @@ import { styled } from '../../stitches.config';
 import type * as Stitches from '../../stitches.config';
 
 
-export const Label = styled('p', {
+const Label = styled('p', {
 	/* -------------------------------- Variants -------------------------------- */
 	variants: {
 		bold: {
@@ -70,3 +70,5 @@ export const Label = styled('p', {
 	}
 });
 type Variants = Stitches.VariantProps<typeof Label>;
+
+export default Label

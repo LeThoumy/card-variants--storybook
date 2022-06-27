@@ -2,7 +2,7 @@ import { styled } from '../../stitches.config';
 import type * as Stitches from '../../stitches.config';
 
 
-export const Chip = styled('button', {
+const Chip = styled('button', {
 	/* ----------------------------- Default Styles ----------------------------- */
 	display: 'inline-flex',
 	backgroundColor: '$blueReg500',
@@ -41,3 +41,5 @@ export const Chip = styled('button', {
 	},
 });
 type Variants = Stitches.VariantProps<typeof Chip>;
+
+export default Chip
