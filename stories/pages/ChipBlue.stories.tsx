@@ -1,7 +1,7 @@
-import { Chip } from '../../pages/components/Chip';
-import { Icon } from '../../pages/components/Icons';
-import { VhBox } from '../../pages/components/VhBox';
-import { Label } from '../../pages/components/Label';
+import Chip from '../../pages/components/Chip';
+import Icon from '../../pages/components/Icons';
+import VhBox from '../../pages/components/VhBox';
+import Label from '../../pages/components/Label';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {

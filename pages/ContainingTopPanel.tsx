@@ -8,9 +8,9 @@ import styles from '../styles/Home.module.css'
 import { getCssText } from '../stitches.config'
 import { styled, globalCss } from '../stitches.config'
 /* ---------------------------- import / Components -------------------------- */
-import { Chip } from './components/Chip'
-import { Icon } from './components/Icons'
-import { Label } from './components/Label'
+import Chip from './components/Chip'
+import Icon from './components/Icons'
+import Label from './components/Label'
 /* ------------------------------ import / Icons ----------------------------- */
 import ArrowSvg from './components/icons/ArrowSvg'
 import BusIcon from './components/icons/BusIcon'

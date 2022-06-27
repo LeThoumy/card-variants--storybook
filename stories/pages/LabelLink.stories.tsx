@@ -1,5 +1,5 @@
-import { VhBox } from '../../pages/components/VhBox';
-import { Label } from '../../pages/components/Label';
+import VhBox from '../../pages/components/VhBox';
+import Label from '../../pages/components/Label';
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
