@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/components/icons/ArrowSvg.jsx", "pages/components/icons/BathroomIcon.jsx", "pages/components/icons/ChevronIcon.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/components/icons/ArrowSvg.jsx", "pages/components/icons/BathroomIcon.tsx", "pages/components/icons/ChevronIcon.tsx"],
   "exclude": ["node_modules"]
 }
