@@ -13,6 +13,6 @@ export const BlueDefault = () =>
 	<VhBox>
 		<Chip size="lg" color="blue">
 			<Label bold>$45</Label>
-			<Icon className='material-symbols-outlinedd' css={{ color: "$blueReg200" }}>chevron_right</Icon>
+			<Icon className='material-symbols-outlined' css={{ color: "$blueReg200" }}>chevron_right</Icon>
 		</Chip>
 	</VhBox>

@@ -49,7 +49,7 @@ const BoxInline = styled('div', {
 	alignItems: 'center',
 })
 const IconisDark = styled('span', {
-	'&.material-symbols-outlinedd': {
+	'&.material-symbols-outlined': {
 		fontFamily: 'Material Symbols Rounded',
 		color: 'hsla(205, 25%, 53%, 1)',
 		backgoundColor: 'transparent',
@@ -157,7 +157,7 @@ const ContainingTopPanel: NextPage = () => {
 							</BoxInline>
 							<Inline css={{ mb: '-($x1)' }}>
 								<Chip size="lg">
-									<Label size='lg' bold css={{pt:'$xdot5'}}>$45</Label>
+									<Label size='lg' bold css={{ pt: '$xdot5' }}>$45</Label>
 									<ChevronIconLight></ChevronIconLight>
 								</Chip>
 							</Inline>

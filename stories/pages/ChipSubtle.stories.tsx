@@ -13,6 +13,6 @@ export const Base = () =>
 	<VhBox>
 		<Chip size="lg" color='neutral'>
 			<Label size='lg' primary bold>Itinerary</Label>
-			<Icon className='material-symbols-outlinedd' css={{ color: "$iconPrimary" }}>chevron_right</Icon>
+			<Icon className='material-symbols-outlined' css={{ color: "$iconPrimary" }}>chevron_right</Icon>
 		</Chip>
 	</VhBox>
