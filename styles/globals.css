@@ -9,6 +9,9 @@
   src: url(../public/fonts/materialSymbolSquared.woff2) format('woff2');
 }
 
+.container {
+  background-color: #deeef5;
+}
 
 html,
 span {
